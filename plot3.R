@@ -1,6 +1,6 @@
 source('Getting_and_Cleaning_data.R')
 
-png(filename = "plot3.png", width = 480, height = 480)
+png(filename = "plot3.png", width = 480, height = 480,bg="transparent")
 
 with(needed_data, {
         plot(Date_Time,Sub_metering_1 , type = "l",col="black", xlab = "",

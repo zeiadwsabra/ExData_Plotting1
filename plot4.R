@@ -1,6 +1,6 @@
 source('Getting_and_Cleaning_data.R')
 
-png(filename = "plot4.png", width = 480, height = 480)
+png(filename = "plot4.png", width = 480, height = 480, bg="transparent")
 
 with(needed_data, {
         
